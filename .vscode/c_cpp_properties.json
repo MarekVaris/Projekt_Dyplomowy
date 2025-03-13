@@ -1,20 +1,35 @@
 {
-	"configurations": [
-		{
-			"name": "GraEditor Editor Win64 Development (Gra)",
-			"compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
-			"cStandard": "c17",
-			"cppStandard": "c++20",
-			"intelliSenseMode": "msvc-x64",
-			"compileCommands": "D:\\Nowyfolder\\git\\Projekt_Dyplomowy\\.vscode\\compileCommands_Gra.json"
-		},
-		{
-			"name": "Win32",
-			"compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
-			"cStandard": "c17",
-			"cppStandard": "c++20",
-			"intelliSenseMode": "msvc-x64",
-			"compileCommands": "D:\\Nowyfolder\\git\\Projekt_Dyplomowy\\.vscode\\compileCommands_Default.json"
-		}
-	]
+    "configurations": [
+        {
+            "name": "GraEditor Editor Win64 Development (Gra)",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": [
+                "D:\\Nowyfolder\\git\\Projekt_Dyplomowy\\.vscode\\compileCommands_Gra.json"
+            ],
+            "includePath": [
+                "${workspaceFolder}\\Intermediate\\**",
+                "${workspaceFolder}\\Plugins\\**",
+                "${workspaceFolder}\\Source\\**"
+            ]
+        },
+        {
+            "name": "Win32",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": [
+                "D:\\Nowyfolder\\git\\Projekt_Dyplomowy\\.vscode\\compileCommands_Default.json"
+            ],
+            "includePath": [
+                "${workspaceFolder}\\Intermediate\\**",
+                "${workspaceFolder}\\Plugins\\**",
+                "${workspaceFolder}\\Source\\**"
+            ]
+        }
+    ],
+    "version": 4
 }
